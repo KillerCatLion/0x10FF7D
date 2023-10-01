@@ -1,0 +1,7 @@
+C:\Repos\update\update\bin\Debug\update.exe.config
+C:\Repos\update\update\bin\Debug\update.exe
+C:\Repos\update\update\bin\Debug\update.pdb
+C:\Repos\update\update\obj\Debug\update.csproj.AssemblyReference.cache
+C:\Repos\update\update\obj\Debug\update.csproj.CoreCompileInputs.cache
+C:\Repos\update\update\obj\Debug\update.exe
+C:\Repos\update\update\obj\Debug\update.pdb

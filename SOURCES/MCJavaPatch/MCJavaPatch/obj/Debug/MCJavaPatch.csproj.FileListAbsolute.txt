@@ -1,0 +1,7 @@
+C:\Repos\MCJavaPatch\MCJavaPatch\obj\Debug\MCJavaPatch.csproj.AssemblyReference.cache
+C:\Repos\MCJavaPatch\MCJavaPatch\obj\Debug\MCJavaPatch.csproj.CoreCompileInputs.cache
+C:\Repos\MCJavaPatch\MCJavaPatch\bin\Debug\MCJavaPatch.exe.config
+C:\Repos\MCJavaPatch\MCJavaPatch\bin\Debug\MCJavaPatch.exe
+C:\Repos\MCJavaPatch\MCJavaPatch\bin\Debug\MCJavaPatch.pdb
+C:\Repos\MCJavaPatch\MCJavaPatch\obj\Debug\MCJavaPatch.exe
+C:\Repos\MCJavaPatch\MCJavaPatch\obj\Debug\MCJavaPatch.pdb

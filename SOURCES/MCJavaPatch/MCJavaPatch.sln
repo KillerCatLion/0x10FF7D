@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCJavaPatch", "MCJavaPatch\MCJavaPatch.csproj", "{D97EF81F-C7C7-4AD9-8182-6E26602AEBA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D97EF81F-C7C7-4AD9-8182-6E26602AEBA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97EF81F-C7C7-4AD9-8182-6E26602AEBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97EF81F-C7C7-4AD9-8182-6E26602AEBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97EF81F-C7C7-4AD9-8182-6E26602AEBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A1691C2-B520-49F4-A374-74B151017FEB}
+	EndGlobalSection
+EndGlobal

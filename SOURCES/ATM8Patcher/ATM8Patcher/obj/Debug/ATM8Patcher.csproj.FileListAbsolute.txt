@@ -1,0 +1,7 @@
+C:\Repos\ATM8Patcher\ATM8Patcher\bin\Debug\ATM8Patcher.exe.config
+C:\Repos\ATM8Patcher\ATM8Patcher\bin\Debug\ATM8Patcher.exe
+C:\Repos\ATM8Patcher\ATM8Patcher\bin\Debug\ATM8Patcher.pdb
+C:\Repos\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.csproj.AssemblyReference.cache
+C:\Repos\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.csproj.CoreCompileInputs.cache
+C:\Repos\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.exe
+C:\Repos\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.pdb

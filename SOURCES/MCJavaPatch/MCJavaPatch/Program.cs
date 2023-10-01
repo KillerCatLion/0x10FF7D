@@ -1,0 +1,31 @@
+﻿using System;
+using System.Diagnostics;
+using System.IO;
+using System.Reflection;
+
+namespace MCJavaPatch
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string Args = "java ";
+            for (int i = 0; i < args.Length; i++)
+            {
+                if (args[i].Contains("="))
+                {
+                    Args += args[i].Replace("=", "=\"") + "\" ".Replace("\n", "");
+                }
+                else
+                {
+                    Args += args[i] + " ".Replace("\n", "");
+                }
+            }
+            using (StreamWriter writer = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\.minecraft\\RunClient.bat"))
+            {
+                writer.WriteLine(Args);
+            }
+            Process.Start(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\ATM8Patcher.exe");
+        }
+    }
+}
