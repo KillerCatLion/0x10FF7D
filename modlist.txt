@@ -352,3 +352,4 @@ YungsBetterStrongholds-1.19.2-Forge-3.2.0.jar
 YungsBetterWitchHuts-1.19.2-Forge-2.1.0.jar
 YungsExtras-1.19.2-Forge-3.1.0.jar
 [1.19.2] SecurityCraft v1.9.6.1.jar
+ProjectE-1.19.2-PE1.0.1B.jar
