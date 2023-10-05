@@ -239,7 +239,6 @@ NaturesCompass-1.19.2-1.10.0-forge.jar
 netherportalfix-forge-1.19-10.0.1.jar
 NoChatReports-FORGE-1.19.2-v1.5.1.jar
 nomowanderer-1.19.2_1.3.11.jar
-NuclearCraft-1.19.2-1.0.0-alpha.5.jar
 observable-3.3.1.jar
 occultism-1.19.2-1.87.1.jar
 Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.4.jar
