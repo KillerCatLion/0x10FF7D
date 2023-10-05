@@ -15,6 +15,7 @@ AEInfinityBooster-1.19.2-1.2.0+11.jar
 AIOTBotania-1.19.2-3.0.1.jar
 alchemistry-1.19.2-2.3.1.jar
 alchemylib-1.19.2-1.0.21.jar
+alexsmobs-1.21.1.jar
 AllTheCompressed-1.19.2-2.0.0.jar
 allthemodium-2.1.7-1.19.2-43.1.1.jar
 alltheores-2.0.2-1.19.2-43.1.3.jar
@@ -116,6 +117,7 @@ energymeter-1.19.2-1.0.0.jar
 engineersdecor-1.19.2-forge-1.3.29.jar
 ensorcellation-1.19.2-4.2.0.14.jar
 entangled-1.3.16-forge-mc1.19.2.jar
+evenmoreinstruments-1.19.2-2.1.jar
 EvilCraft-1.19.2-1.2.27.jar
 Exchangers-1.19.2-3.4.1.jar
 ExperienceBugFix-1.19-1.41.2.3.jar
@@ -123,6 +125,7 @@ ExtraDisks-1.19.2-2.2.0.jar
 ExtraStorage-1.19.2-3.0.1.jar
 FarmersDelight-1.19.2-1.2.3.jar
 farmingforblockheads-forge-1.19.2-11.3.1.jar
+farsighted-mobs-forge-1.1-1.19.jar
 FastFurnace-1.19.2-7.0.0.jar
 FastLeafDecay-30.jar
 FastSuite-1.19.2-4.1.1.jar
@@ -206,6 +209,7 @@ MekanismGenerators-1.19.2-10.3.9.13.jar
 MekanismTools-1.19.2-10.3.9.13.jar
 merequester-forge-1.19.2-1.1.4.jar
 minecolonies-1.19.2-1.1.151-BETA.jar
+MineTraps-1.19.x-(v.2.2.4).jar
 mininggadgets-1.13.1.jar
 MobDespawnTimers-1.19.2-2.0.1.jar
 mob_grinding_utils-1.19.2-0.4.50.jar
@@ -213,8 +217,10 @@ modernfix-forge-5.7.2+mc1.19.2.jar
 modonomicon-1.19.2-1.34.0.jar
 modular-routers-1.19.2-10.2.19.jar
 moonlight-1.19.2-2.2.44-forge.jar
+MoreBows-1.0.12+1.19.2.forge.jar
 moredragoneggs-3.2.jar
 morered-1.19.2-3.0.0.2.jar
+Morph-3.2.jar
 Morph-o-Tool-1.6-34.jar
 MouseTweaks-forge-mc1.19-2.23.jar
 multipiston-1.19.2-1.2.21-ALPHA.jar
@@ -231,6 +237,7 @@ NaturesCompass-1.19.2-1.10.0-forge.jar
 netherportalfix-forge-1.19-10.0.1.jar
 NoChatReports-FORGE-1.19.2-v1.5.1.jar
 nomowanderer-1.19.2_1.3.11.jar
+NuclearCraft-1.19.2-1.0.0-alpha.5.jar
 observable-3.3.1.jar
 occultism-1.19.2-1.87.1.jar
 Oh_The_Biomes_You'll_Go-forge-1.19.2-2.0.1.4.jar
@@ -242,9 +249,11 @@ PigPen-Forge-1.19.2-11.1.2.jar
 pipez-1.19.2-1.1.5.jar
 Placebo-1.19.2-7.3.2.jar
 platforms-forge-1.19.0-1.10.2.02.jar
+pmmo-1.19.2-3.3.5.jar
 pneumaticcraft-repressurized-1.19.2-4.3.7-30.jar
 polymorph-forge-0.46.4+1.19.2.jar
 ponderjs-1.19.2-1.2.0.jar
+Portal-Gun-Totality-1.19.2.jar
 potionsmaster-0.6.0-1.19.2-43.1.1.jar
 Powah-4.0.11.jar
 Prism-1.19.1-1.0.2.jar
@@ -289,6 +298,7 @@ SimpleBackups-1.19.1-2.1.10.jar.disabled
 simplemagnets-1.1.9-forge-mc1.19.jar
 simplylight-1.19.2-1.4.5-build.42.jar
 SmartBrainLib-forge-1.19.2-1.9.jar
+Snack's+Traps+v1.4.jar
 SoL-Carrot-1.19.2-1.14.0.jar
 sophisticatedbackpacks-1.19.2-3.18.58.907.jar
 sophisticatedcore-1.19.2-0.5.87.417.jar
@@ -296,6 +306,7 @@ sophisticatedstorage-1.19.2-0.8.43.598.jar
 spark-1.10.37-forge.jar
 spirit-forge-1.19.2-2.2.6.jar
 SpitItOut-1.19.4-1.0.0.jar
+Spoiled-1.19.2-1.6.3.jar
 starlight-1.1.1+forge.cf5b10b.jar
 Steam_Rails-1.5.1+forge-mc1.19.2.jar
 StructureCompass-1.19.2-1.4.6.jar
