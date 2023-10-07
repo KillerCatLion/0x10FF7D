@@ -265,6 +265,7 @@ quartz-1.19.2-0.1.0-beta.2.2.jar
 rangedpumps-1.0.0.jar
 rebornstorage-1.19.2-5.0.3.jar
 rechiseled-1.1.4-forge-mc1.19.2.jar
+redstonepen-1.19.2-forge-1.2.20.jar
 redstone_arsenal-1.19.2-7.2.0.15.jar
 refinedcooking-3.0.3.jar
 refinedstorage-1.11.6.jar
@@ -335,6 +336,7 @@ thermal_locomotion-1.19.2-10.2.0.14.jar
 theurgy-1.19.2-1.3.6.jar
 The_Undergarden-1.19.2-0.8.3.jar
 time-in-a-bottle-3.0.1-mc1.19.jar
+tinyredstone-1.19.2-4.1.5.jar
 titanium-1.19.2-3.7.3-27.jar
 tombstone-8.2.11-1.19.2.jar
 ToolBelt-1.19.2-1.19.7.jar
@@ -350,6 +352,7 @@ vitalize-forge-1.19.2-1.1.1.jar
 voidtotem-forge-1.19.2-2.1.0.jar
 waystones-forge-1.19.2-11.4.1.jar
 wirelesschargers-1.0.9-forge-mc1.19.2.jar
+wirelessredstone-fabric-1.19.2-1.1.1.jar
 WitherSkeletonTweaks-1.19.2-8.0.4.jar
 xnet-1.19-5.1.4.jar
 xnetgases-1.19.2-4.0.1.jar
