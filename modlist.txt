@@ -162,6 +162,7 @@ hexcasting-forge-1.19.2-0.10.3.jar
 hexerei-0.3.3.1.jar
 HostileNeuralNetworks-1.19.2-4.1.1.jar
 Iceberg-1.19.2-forge-1.1.4.jar
+identity-2.6.1-1.19.1-forge.jar
 ImmersiveEngineering-1.19.2-9.2.2-165.jar
 industrial-foregoing-1.19.2-3.3.2.3-5.jar
 IntegratedCrafting-1.19.2-1.1.3.jar
@@ -221,7 +222,6 @@ moonlight-1.19.2-2.2.44-forge.jar
 MoreBows-1.0.12+1.19.2.forge.jar
 moredragoneggs-3.2.jar
 morered-1.19.2-3.0.0.2.jar
-Morph-3.2.jar
 Morph-o-Tool-1.6-34.jar
 MouseTweaks-forge-mc1.19-2.23.jar
 multipiston-1.19.2-1.2.21-ALPHA.jar
