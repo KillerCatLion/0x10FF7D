@@ -132,6 +132,7 @@ Exchangers-1.19.2-3.4.1.jar
 exlinefurniture-forge-1.19.2-v2.1.25.jar
 ExperienceBugFix-1.19-1.41.2.3.jar
 ExtraDisks-1.19.2-2.2.0.jar
+extragolems-19.2.6.jar
 ExtraStorage-1.19.2-3.0.1.jar
 fantasyfurniture-1.19.2-6.7.0.jar
 FarmersDelight-1.19.2-1.2.3.jar
