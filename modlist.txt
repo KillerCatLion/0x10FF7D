@@ -270,7 +270,6 @@ PigPen-Forge-1.19.2-11.1.2.jar
 pipez-1.19.2-1.1.5.jar
 Placebo-1.19.2-7.3.2.jar
 platforms-forge-1.19.0-1.10.2.02.jar
-pmmo-1.19.2-3.3.5.jar
 pneumaticcraft-repressurized-1.19.2-4.3.7-30.jar
 polymorph-forge-0.46.4+1.19.2.jar
 ponderjs-1.19.2-1.2.0.jar
