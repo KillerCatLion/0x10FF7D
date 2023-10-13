@@ -9,6 +9,7 @@ AdvancementPlaques-1.19.2-1.4.7.jar
 advgenerators-1.4.0.5-mc1.19.2.jar
 ad_astra-forge-1.19.2-1.12.7.jar
 AE2-Things-1.1.1.jar
+PlayerHealthIndicators-1.1.0-1.19.jar
 AE2WTLib-12.9.7.jar
 AEAdditions-1.19.2-4.0.5.jar
 AEInfinityBooster-1.19.2-1.2.0+11.jar
