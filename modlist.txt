@@ -4,15 +4,11 @@ AdditionalEnchantedMiner-1.19.2-1192.3.16.jar
 additionallanterns-1.1.1-forge-mc1.19.jar
 additional_lights-1.19-2.1.6.jar
 adtetra-1.0.1.jar
-PuzzlesLib-v4.4.3-1.19.2-Forge.jar
 AdvancedPeripherals-1.19.2-0.7.29r.jar
-Cyclic-1.19.2-1.8.2.jar
 AdvancementPlaques-1.19.2-1.4.7.jar
 advgenerators-1.4.0.5-mc1.19.2.jar
-UniversalEnchants-v4.2.15-1.19.2-Forge.jar
 ad_astra-forge-1.19.2-1.12.7.jar
 AE2-Things-1.1.1.jar
-PlayerHealthIndicators-1.1.0-1.19.jar
 AE2WTLib-12.9.7.jar
 AEAdditions-1.19.2-4.0.5.jar
 AEInfinityBooster-1.19.2-1.2.0+11.jar
@@ -25,9 +21,9 @@ alltheores-2.0.2-1.19.2-43.1.3.jar
 allthetweaks-2.0.6-1.19.2-43.2.0.jar
 almostunified-forge-1.19.2-0.6.0.jar
 AngelRing2-1.19.2-2.1.7.jar
+animated-chunks-0.3.0.jar
 another_furniture-forge-1.19.2-2.1.4.jar
 antighost-1.19.1-forge42.0.1-1.1.3.jar
-EnchantmentGroups-1.3.0+1.19.jar
 Apotheosis-1.19.2-6.4.0.jar
 appleskin-forge-mc1.19-2.4.2.jar
 Applied-Botanics-1.4.4.jar
@@ -68,6 +64,7 @@ caelus-forge-1.19.2-3.0.0.6.jar
 carryon-forge-1.19.2-2.1.1.21.jar
 cc-tweaked-1.19.2-1.101.3.jar
 cfm-7.0.0-pre35-1.19.2.jar
+ChanceCubes-1.19.2-5.0.2.475.jar
 charginggadgets-1.9.0.jar
 charmofundying-forge-6.2.1+1.19.2.jar
 chemlib-1.19.2-2.0.17.jar
@@ -102,6 +99,7 @@ ctov-3.2.5.jar
 Cucumber-1.19.2-6.0.8.jar
 cupboard-1.19.2-1.9.jar
 curios-forge-1.19.2-5.1.4.1.jar
+Cyclic-1.19.2-1.8.2.jar
 CyclopsCore-1.19.2-1.18.8.jar
 dankstorage-1.19.2-5.1.6.jar
 DarkUtilities-Forge-1.19.2-13.1.9.jar
@@ -123,6 +121,7 @@ elementalcraft-1.19.2-5.8.5.jar
 elevatorid-1.19.2-1.8.9.jar
 elytraslot-forge-6.1.1+1.19.2.jar
 EnchantmentDescriptions-Forge-1.19.2-13.0.14.jar
+EnchantmentGroups-1.3.0+1.19.jar
 enderchests-forge-1.19.0-1.10.1.03.jar
 EnderStorage-1.19.2-2.10.1.181-universal.jar
 endertanks-forge-1.19.0-1.12.1.04.jar
@@ -136,6 +135,7 @@ EvilCraft-1.19.2-1.2.27.jar
 Exchangers-1.19.2-3.4.1.jar
 exlinefurniture-forge-1.19.2-v2.1.25.jar
 ExperienceBugFix-1.19-1.41.2.3.jar
+experienceobelisk-v1.4.8-1.19.2.jar
 ExtraDisks-1.19.2-2.2.0.jar
 extragolems-19.2.6.jar
 ExtraStorage-1.19.2-3.0.1.jar
@@ -182,6 +182,7 @@ Iceberg-1.19.2-forge-1.1.4.jar
 identity-2.6.1-1.19.1-forge.jar
 ImmersiveEngineering-1.19.2-9.2.2-165.jar
 industrial-foregoing-1.19.2-3.3.2.3-5.jar
+indypets-1.2.3-1.19.2.jar
 IntegratedCrafting-1.19.2-1.1.3.jar
 IntegratedDynamics-1.19.2-1.18.0.jar
 integratednbt-1.19.2-1.6.0.jar
@@ -214,6 +215,7 @@ littlecontraptions-forge-1.19.2.2.jar
 littlelogistics-mc1.19.2-v1.4.0.jar
 lootr-1.19-0.4.24.64.jar
 mahoutsukai-1.19.2-v1.34.57.jar
+marbledsarsenal-1.19.2-2.0.2.jar
 matc-1.3.1.jar
 MaxHealthFix-Forge-1.19.2-8.0.2.jar
 MCD+Bosses+1.19.2.jar
@@ -244,6 +246,8 @@ modular-routers-1.19.2-10.2.19.jar
 moonlight-1.19.2-2.2.44-forge.jar
 MoreBows-1.0.12+1.19.2.forge.jar
 moredragoneggs-3.2.jar
+MoreEnchantments_MC_1.19.2_Vers.1.4.3.jar
+MorePeripherals_1.19.2-1.8.8.jar
 morered-1.19.2-3.0.0.2.jar
 Morph-o-Tool-1.6-34.jar
 MouseTweaks-forge-mc1.19-2.23.jar
@@ -275,6 +279,7 @@ PigPen-Forge-1.19.2-11.1.2.jar
 pipez-1.19.2-1.1.5.jar
 Placebo-1.19.2-7.3.2.jar
 platforms-forge-1.19.0-1.10.2.02.jar
+PlayerHealthIndicators-1.1.0-1.19.jar
 pneumaticcraft-repressurized-1.19.2-4.3.7-30.jar
 polymorph-forge-0.46.4+1.19.2.jar
 ponderjs-1.19.2-1.2.0.jar
@@ -284,6 +289,7 @@ Powah-4.0.11.jar
 Prism-1.19.1-1.0.2.jar
 productivebees-1.19.2-0.10.7.2.jar
 ProjectE-1.19.2-PE1.0.1B.jar
+PuzzlesLib-v4.4.3-1.19.2-Forge.jar
 pylons-1.19.2-3.2.0.jar
 Quark-3.4-409.jar
 quartz-1.19.2-0.1.0-beta.2.2.jar
@@ -314,6 +320,7 @@ rubidium-mc1.19.2-0.6.2c.jar
 Runelic-Forge-1.19.2-14.1.4.jar
 SandBox-1.19.2-1.0.1.jar
 saturn-mc1.19.2-0.0.4.jar
+SaveYourPets-1.19-1.0.9.jar
 ScalableCatsForce-2.13.10-build-10-with-library.jar
 sebastrnlib-2.0.2.jar
 serverconfigupdater-3.2.jar
@@ -325,6 +332,7 @@ SimpleBackups-1.19.1-2.1.10.jar.disabled
 simplemagnets-1.1.9-forge-mc1.19.jar
 SimpleStorageNetwork-1.19.2-1.7.0.jar
 simplylight-1.19.2-1.4.5-build.42.jar
+smallerunits-1.19.2-forge-2.1.3.jar
 SmartBrainLib-forge-1.19.2-1.9.jar
 Snack's+Traps+v1.4.jar
 SoL-Carrot-1.19.2-1.14.0.jar
@@ -373,6 +381,7 @@ trashslot-forge-1.19-12.0.2.jar
 TravelAnchors-1.19.2-4.1.2.jar
 twilightforest-1.19.2-4.2.1518-universal.jar
 ultris-v5.6.7f.jar
+UniversalEnchants-v4.2.15-1.19.2-Forge.jar
 universalgrid-1.19.2-1.1.jar
 UtilitiX-1.19.2-0.7.13.jar
 villagertools-1.19-1.0.3.jar
