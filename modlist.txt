@@ -4,6 +4,7 @@ AdditionalEnchantedMiner-1.19.2-1192.3.16.jar
 additionallanterns-1.1.1-forge-mc1.19.jar
 additional_lights-1.19-2.1.6.jar
 adtetra-1.0.1.jar
+PuzzlesLib-v4.4.3-1.19.2-Forge.jar
 AdvancedPeripherals-1.19.2-0.7.29r.jar
 AdvancementPlaques-1.19.2-1.4.7.jar
 advgenerators-1.4.0.5-mc1.19.2.jar
