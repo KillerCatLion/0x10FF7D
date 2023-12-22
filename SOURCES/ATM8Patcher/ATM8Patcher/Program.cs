@@ -29,6 +29,7 @@ namespace ATM8Patcher
                     Console.WriteLine("Downloading updater...");
                     client.DownloadFile("https://raw.githubusercontent.com/KillerCatLion/0x10FF7D/main/update.exe", Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\update.exe");
                     Console.WriteLine("Starting updater...");
+                    Thread.Sleep(2000);
                     Process.Start(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\update.exe");
                     Environment.Exit(0);
                 }

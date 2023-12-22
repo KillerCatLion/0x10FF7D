@@ -1,7 +1,7 @@
-C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Release\MCJavaPatch.exe.config
-C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Release\MCJavaPatch.exe
-C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Release\MCJavaPatch.pdb
 C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Release\MCJavaPatch.csproj.AssemblyReference.cache
 C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Release\MCJavaPatch.csproj.CoreCompileInputs.cache
-C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Release\MCJavaPatch.exe
-C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Release\MCJavaPatch.pdb
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Release\java.exe.config
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Release\java.exe
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Release\java.pdb
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Release\java.exe
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Release\java.pdb

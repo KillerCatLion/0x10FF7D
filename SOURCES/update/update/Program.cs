@@ -15,41 +15,49 @@ namespace update
             string cwd = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
             Console.WriteLine("Preparing...");
             Thread.Sleep(2000);
+            Console.WriteLine("Removing old files...");
             try
             {
-                File.Delete(cwd + "\\ATM8Patcher.exe");
+                if (File.Exists(cwd + "\\ATM8Patcher.exe"))
+                {
+                    File.Delete(cwd + "\\ATM8Patcher.exe");
+                }
             } catch {
                 Console.WriteLine("An error occured during update. Please ask for help, exception code: ENOACC 0x001A");
             }
             try
             {
-                File.Delete(cwd + "\\java.exe");
+                if (File.Exists(cwd + "\\java.exe"))
+                {
+                    File.Delete(cwd + "\\java.exe");
+                }
             }
             catch
             {
                 Console.WriteLine("An error occured during update. Please ask for help, exception code: ENOACC 0x002C");
             }
+            Console.WriteLine("Old files removed. Progressing with update.");
             try
             {
-                if (Directory.Exists(cwd + "\\java"))
+                if (!Directory.Exists(cwd + "\\java"))
                 {
-                    Directory.Delete(cwd + "\\java", true);
-                }
-                using (var client = new WebClient())
-                {
-                    Console.WriteLine("Downloading java files...");
-                    client.DownloadFile("https://cdn.discordapp.com/attachments/1132926383677509722/1187643540344422474/java.zip", cwd + "\\java.zip"); //Discord URL because github doesn't like large files and i am lazy to figure out git LFS
-                    Console.WriteLine("Unpacking java files...");
-                    ZipFile.ExtractToDirectory(cwd + "\\java.zip", cwd + "\\java");
-                    Console.WriteLine("Cleaning up...");
-                    File.Delete(cwd + "\\java.zip");
-                    Console.WriteLine("Kubejs java installed and validated.");
+                    using (var client = new WebClient())
+                    {
+                        Console.WriteLine("Downloading java files...");
+                        client.DownloadFile("https://cdn.discordapp.com/attachments/1132926383677509722/1187643540344422474/java.zip", cwd + "\\java.zip"); //Discord URL because github doesn't like large files and i am lazy to figure out git LFS
+                        Console.WriteLine("Unpacking java files...");
+                        ZipFile.ExtractToDirectory(cwd + "\\java.zip", cwd + "\\java");
+                        Console.WriteLine("Cleaning up...");
+                        File.Delete(cwd + "\\java.zip");
+                        Console.WriteLine("Java installed and validated.");
+                    }
                 }
             }
             catch
             {
                 Console.WriteLine("An error occured during update. Please ask for help, exception code: ENOACC 0x002B");
             }
+            Thread.Sleep(1000);
             Console.WriteLine("Downloading update files...");
             using (var client = new WebClient())
             {
@@ -59,6 +67,7 @@ namespace update
                 Console.WriteLine("Cleaning up...");
                 File.Delete(cwd + "\\update.zip");
                 Console.WriteLine("Update successful. Returning to ATM8Patcher...");
+                Thread.Sleep(1000);
                 Process.Start(cwd + "\\ATM8Patcher.exe");
             }
         }
