@@ -5,3 +5,13 @@ C:\Repos\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.csproj.AssemblyReference.
 C:\Repos\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.csproj.CoreCompileInputs.cache
 C:\Repos\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.exe
 C:\Repos\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.pdb
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\bin\Debug\ATM8Patcher.exe.config
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\bin\Debug\ATM8Patcher.exe
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\bin\Debug\ATM8Patcher.pdb
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.csproj.AssemblyReference.cache
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.csproj.CoreCompileInputs.cache
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.exe
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\obj\Debug\ATM8Patcher.pdb
+C:\Github\0x10FF7D\SOURCES\EXECUTABLES\ATM8Patcher.exe.config
+C:\Github\0x10FF7D\SOURCES\EXECUTABLES\ATM8Patcher.exe
+C:\Github\0x10FF7D\SOURCES\EXECUTABLES\ATM8Patcher.pdb

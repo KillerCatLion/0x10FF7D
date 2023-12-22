@@ -5,3 +5,13 @@ C:\Repos\MCJavaPatch\MCJavaPatch\bin\Debug\MCJavaPatch.exe
 C:\Repos\MCJavaPatch\MCJavaPatch\bin\Debug\MCJavaPatch.pdb
 C:\Repos\MCJavaPatch\MCJavaPatch\obj\Debug\MCJavaPatch.exe
 C:\Repos\MCJavaPatch\MCJavaPatch\obj\Debug\MCJavaPatch.pdb
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Debug\java.exe.config
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Debug\java.exe
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\bin\Debug\java.pdb
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Debug\MCJavaPatch.csproj.AssemblyReference.cache
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Debug\MCJavaPatch.csproj.CoreCompileInputs.cache
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Debug\java.exe
+C:\Github\0x10FF7D\SOURCES\MCJavaPatch\MCJavaPatch\obj\Debug\java.pdb
+C:\Github\0x10FF7D\SOURCES\EXECUTABLES\java.exe.config
+C:\Github\0x10FF7D\SOURCES\EXECUTABLES\java.exe
+C:\Github\0x10FF7D\SOURCES\EXECUTABLES\java.pdb

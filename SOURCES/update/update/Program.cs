@@ -36,28 +36,29 @@ namespace update
             {
                 Console.WriteLine("An error occured during update. Please ask for help, exception code: ENOACC 0x002C");
             }
-            Console.WriteLine("Old files removed. Progressing with update.");
             try
             {
-                if (!Directory.Exists(cwd + "\\java"))
+                if (Directory.Exists(cwd + "\\java"))
                 {
-                    using (var client = new WebClient())
-                    {
-                        Console.WriteLine("Downloading java files...");
-                        client.DownloadFile("https://cdn.discordapp.com/attachments/1132926383677509722/1187643540344422474/java.zip", cwd + "\\java.zip"); //Discord URL because github doesn't like large files and i am lazy to figure out git LFS
-                        Console.WriteLine("Unpacking java files...");
-                        ZipFile.ExtractToDirectory(cwd + "\\java.zip", cwd + "\\java");
-                        Console.WriteLine("Cleaning up...");
-                        File.Delete(cwd + "\\java.zip");
-                        Console.WriteLine("Java installed and validated.");
-                    }
+                    Directory.Delete(cwd + "\\java", true);
                 }
             }
             catch
             {
                 Console.WriteLine("An error occured during update. Please ask for help, exception code: ENOACC 0x002B");
             }
+            Console.WriteLine("Old files removed. Progressing with update.");
             Thread.Sleep(1000);
+            using (var client = new WebClient())
+            {
+                Console.WriteLine("Downloading java files...");
+                client.DownloadFile("https://cdn.discordapp.com/attachments/1132926383677509722/1187657295358857246/java.zip", cwd + "\\java.zip"); //Discord URL because github doesn't like large files and i am lazy to figure out git LFS
+                Console.WriteLine("Unpacking java files...");
+                ZipFile.ExtractToDirectory(cwd + "\\java.zip", cwd + "\\java");
+                Console.WriteLine("Cleaning up...");
+                File.Delete(cwd + "\\java.zip");
+                Console.WriteLine("Java installed and validated.");
+            }
             Console.WriteLine("Downloading update files...");
             using (var client = new WebClient())
             {
@@ -67,7 +68,7 @@ namespace update
                 Console.WriteLine("Cleaning up...");
                 File.Delete(cwd + "\\update.zip");
                 Console.WriteLine("Update successful. Returning to ATM8Patcher...");
-                Thread.Sleep(1000);
+                Thread.Sleep(2000);
                 Process.Start(cwd + "\\ATM8Patcher.exe");
             }
         }
