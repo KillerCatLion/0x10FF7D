@@ -1,0 +1,7 @@
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\bin\Release\ATM8Patcher.exe.config
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\bin\Release\ATM8Patcher.exe
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\bin\Release\ATM8Patcher.pdb
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\obj\Release\ATM8Patcher.csproj.AssemblyReference.cache
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\obj\Release\ATM8Patcher.csproj.CoreCompileInputs.cache
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\obj\Release\ATM8Patcher.exe
+C:\Github\0x10FF7D\SOURCES\ATM8Patcher\ATM8Patcher\obj\Release\ATM8Patcher.pdb

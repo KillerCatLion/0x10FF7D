@@ -9,7 +9,7 @@ namespace MCJavaPatch
     {
         static void Main(string[] args)
         {
-            string Args = "java ";
+            string Args = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\java\\bin\\java.exe ";
             for (int i = 0; i < args.Length; i++)
             {
                 if (args[i].Contains("="))

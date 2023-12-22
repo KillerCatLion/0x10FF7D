@@ -29,6 +29,27 @@ namespace update
             {
                 Console.WriteLine("An error occured during update. Please ask for help, exception code: ENOACC 0x002C");
             }
+            try
+            {
+                if (Directory.Exists(cwd + "\\java"))
+                {
+                    Directory.Delete(cwd + "\\java", true);
+                }
+                using (var client = new WebClient())
+                {
+                    Console.WriteLine("Downloading java files...");
+                    client.DownloadFile("https://cdn.discordapp.com/attachments/1132926383677509722/1187643540344422474/java.zip", cwd + "\\java.zip"); //Discord URL because github doesn't like large files and i am lazy to figure out git LFS
+                    Console.WriteLine("Unpacking java files...");
+                    ZipFile.ExtractToDirectory(cwd + "\\java.zip", cwd + "\\java");
+                    Console.WriteLine("Cleaning up...");
+                    File.Delete(cwd + "\\java.zip");
+                    Console.WriteLine("Kubejs java installed and validated.");
+                }
+            }
+            catch
+            {
+                Console.WriteLine("An error occured during update. Please ask for help, exception code: ENOACC 0x002B");
+            }
             Console.WriteLine("Downloading update files...");
             using (var client = new WebClient())
             {

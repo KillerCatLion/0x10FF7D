@@ -1,0 +1,7 @@
+C:\Github\0x10FF7D\SOURCES\update\update\bin\Release\update.exe.config
+C:\Github\0x10FF7D\SOURCES\update\update\bin\Release\update.exe
+C:\Github\0x10FF7D\SOURCES\update\update\bin\Release\update.pdb
+C:\Github\0x10FF7D\SOURCES\update\update\obj\Release\update.csproj.AssemblyReference.cache
+C:\Github\0x10FF7D\SOURCES\update\update\obj\Release\update.csproj.CoreCompileInputs.cache
+C:\Github\0x10FF7D\SOURCES\update\update\obj\Release\update.exe
+C:\Github\0x10FF7D\SOURCES\update\update\obj\Release\update.pdb
