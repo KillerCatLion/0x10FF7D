@@ -13,7 +13,7 @@ namespace ATM8Patcher
     {
         static void Main(string[] args)
         {
-            string cv = "v0048";
+            string cv = "v0049";
             HttpWebRequest VRequest = (HttpWebRequest)WebRequest.Create("https://raw.githubusercontent.com/KillerCatLion/0x10FF7D/main/version.txt");
             VRequest.Method = "GET";
             HttpWebResponse VResponse = (HttpWebResponse)VRequest.GetResponse();
