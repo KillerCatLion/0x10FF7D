@@ -23,9 +23,10 @@ namespace MCJavaPatch
             }
             using (StreamWriter writer = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData) + "\\.minecraft\\RunClient.bat"))
             {
-                writer.WriteLine(Args);
+                writer.WriteLine(Args + "\nPAUSE");
             }
             Process.Start(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\ATM8Patcher.exe");
+            Console.ReadLine();
         }
     }
 }
