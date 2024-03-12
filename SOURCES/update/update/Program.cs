@@ -52,7 +52,7 @@ namespace update
             using (var client = new WebClient())
             {
                 Console.WriteLine("Downloading java files...");
-                client.DownloadFile("https://cdn.discordapp.com/attachments/1132926383677509722/1216897893110386839/java.zip", cwd + "\\java.zip"); //Discord URL because github doesn't like large files and i am lazy to figure out git LFS
+                client.DownloadFile("https://download.oracle.com/java/17/archive/jdk-17.0.10_windows-x64_bin.zip", cwd + "\\java.zip"); //Discord URL because github doesn't like large files and i am lazy to figure out git LFS
                 Console.WriteLine("Unpacking java files...");
                 ZipFile.ExtractToDirectory(cwd + "\\java.zip", cwd + "\\java");
                 Console.WriteLine("Cleaning up...");
