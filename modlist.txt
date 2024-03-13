@@ -153,7 +153,6 @@ MekFix-1.0.1-build.2+mc1.18.2.jar
 melody_forge_1.0.1_MC_1.18.2.jar
 merequester-1.18.2-1.1.2.jar
 metalbarrels-1.18.2-4.3.jar
-minetogether-forge-1.18.2-6.2.2.jar
 minicoal-1.18.1-1.0.0.jar
 mininggadgets-1.11.1.jar
 mob_grinding_utils-1.18.2-0.4.50.jar
