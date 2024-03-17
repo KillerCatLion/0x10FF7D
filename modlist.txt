@@ -128,7 +128,6 @@ kubejs-ui-forge-1802.1.8-build.17.jar
 laserio-1.4.5.jar
 LibX-1.18.2-3.2.19.jar
 light-overlay-6.0.5-forge.jar
-literal-sky-block-1802.1.4-build.7.jar
 luggage-1.18-1.5.3.jar
 macalodon's_alloys-1.18.2-1.0.0.jar
 Mantle-1.18.2-1.9.45.jar

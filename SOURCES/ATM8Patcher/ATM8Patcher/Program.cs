@@ -5,6 +5,8 @@ using System.IO.Compression;
 using System.Linq;
 using System.Net;
 using System.Reflection;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading;
 
 namespace ATM8Patcher
@@ -13,14 +15,21 @@ namespace ATM8Patcher
     {
         static void Main(string[] args)
         {
-            string cv = "v0102";
+            string cv = "v0103";
+            string configv = "v001";
             HttpWebRequest VRequest = (HttpWebRequest)WebRequest.Create("https://raw.githubusercontent.com/KillerCatLion/0x10FF7D/main/version.txt");
             VRequest.Method = "GET";
             HttpWebResponse VResponse = (HttpWebResponse)VRequest.GetResponse();
+            HttpWebRequest CVRequest = (HttpWebRequest)WebRequest.Create("https://raw.githubusercontent.com/KillerCatLion/0x10FF7D/main/configversion.txt");
+            VRequest.Method = "GET";
+            HttpWebResponse CVResponse = (HttpWebResponse)VRequest.GetResponse();
 
             Stream vDataStream = VResponse.GetResponseStream();
             StreamReader vStream = new StreamReader(vDataStream);
             string version = vStream.ReadToEnd();
+            Stream cvDataStream = VResponse.GetResponseStream();
+            StreamReader cvStream = new StreamReader(vDataStream);
+            string cversion = vStream.ReadToEnd();
             if (version != cv)
             {
                 using (var client = new WebClient())
@@ -83,13 +92,8 @@ namespace ATM8Patcher
                 Directory.CreateDirectory(MCROOT + "\\kubejs");
             }
 
-            if (!File.Exists(MCROOT + "\\config\\_catlyfe.bin"))
+            void installConf()
             {
-                if (Directory.GetFiles(MCROOT + "\\config").Length > 0)
-                {
-                    Console.WriteLine("Backing up non catlyfe config files...");
-                    Directory.Move(MCROOT + "\\config", MCROOT + "\\config_BEFORE_CATLYFE");
-                }
                 using (var client = new WebClient())
                 {
                     Console.WriteLine("Downloading config files...");
@@ -101,13 +105,9 @@ namespace ATM8Patcher
                     Console.WriteLine("Config files installed and validated.");
                 }
             }
-            if (!File.Exists(MCROOT + "\\kubejs\\_catlyfe.bin"))
+
+            void installKubejs()
             {
-                if (Directory.GetFiles(MCROOT + "\\kubejs").Length > 0)
-                {
-                    Console.WriteLine("Backing up non catlyfe kubejs files...");
-                    Directory.Move(MCROOT + "\\kubejs", MCROOT + "\\kubejs_BEFORE_CATLYFE");
-                }
                 using (var client = new WebClient())
                 {
                     Console.WriteLine("Downloading kubejs files...");
@@ -117,6 +117,35 @@ namespace ATM8Patcher
                     Console.WriteLine("Cleaning up...");
                     File.Delete(MCROOT + "\\kubejs.zip");
                     Console.WriteLine("Kubejs files installed and validated.");
+                }
+            }
+
+            if (!File.Exists(MCROOT + "\\config\\_catlyfe.bin"))
+            {
+                if (Directory.GetFiles(MCROOT + "\\config").Length > 0)
+                {
+                    Console.WriteLine("Backing up non catlyfe config files...");
+                    Directory.Move(MCROOT + "\\config", MCROOT + "\\config_BEFORE_CATLYFE");
+                }
+                installConf();
+            }
+            if (!File.Exists(MCROOT + "\\kubejs\\_catlyfe.bin"))
+            {
+                if (Directory.GetFiles(MCROOT + "\\kubejs").Length > 0)
+                {
+                    Console.WriteLine("Backing up non catlyfe kubejs files...");
+                    Directory.Move(MCROOT + "\\kubejs", MCROOT + "\\kubejs_BEFORE_CATLYFE");
+                }
+                installKubejs();
+            } else
+            {
+                if (cversion != configv)
+                {
+                    Console.WriteLine("Config files outdated. Removing old config files.");
+                    Directory.Delete(MCROOT + "\\config", true);
+                    Directory.Delete(MCROOT + "\\kubejs", true);
+                    installConf();
+                    installKubejs();
                 }
             }
             Console.WriteLine("All mods and config files validated.");
