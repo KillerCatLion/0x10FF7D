@@ -229,6 +229,7 @@ tesseract-1.0.35a-forge-mc1.18.jar
 thermal_expansion-1.18.2-9.2.2.24.jar
 thermal_foundation-1.18.2-9.2.2.58.jar
 thermal_integration-1.18.2-9.2.1.18.jar
+tinyredstone-1.18.2-3.2.7.jar
 Tips-Forge-1.18.2-5.0.11.jar
 titanium-1.18.2-3.5.11-45.jar
 TKLib-0.0.23+1.18.2.jar
