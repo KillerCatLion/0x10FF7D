@@ -1,5 +1,6 @@
 accelerated-decay-forge-0.1.3+mc1.18.2.jar
 AdditionalPlacements-1.18.2-1.8.0.jar
+ArmorPoser-forge-1.18.2-1.0.5.jar
 AdvancedPeripherals-1.18.2-0.7.31r.jar
 AE2-Things-1.0.7.jar
 AE2WTLib-11.6.3.jar
